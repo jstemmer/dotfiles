@@ -18,6 +18,7 @@ bindsym $mod+p exec google-chrome
 
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
+for_window [class="(?i)truecrypt"] floating enable
 
 # kill focused window
 bindsym $mod+Shift+Q kill
