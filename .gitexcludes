@@ -1,0 +1,4 @@
+*.sw[op]
+tags
+.lvimrc
+.settings/org.eclipse.jdt.ui.prefs
