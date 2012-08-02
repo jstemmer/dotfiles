@@ -19,6 +19,9 @@ bindsym $mod+p exec google-chrome
 # toggle music
 bindsym $mod+z exec mpc toggle
 
+# start ncmpcpp
+bindsym $mod+n exec i3-sensible-terminal ncmpcpp
+
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
 for_window [class="(?i)truecrypt"] floating enable
