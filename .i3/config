@@ -16,6 +16,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # start a browser
 bindsym $mod+p exec google-chrome
 
+# toggle music
+bindsym $mod+z exec mpc toggle
+
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
 for_window [class="(?i)truecrypt"] floating enable
