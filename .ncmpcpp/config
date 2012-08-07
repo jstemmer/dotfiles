@@ -1,0 +1,8 @@
+playlist_disable_highlight_delay = "0"
+cyclic_scrolling = "no"
+autocenter_mode = "yes"
+centered_cursor = "yes"
+clock_display_seconds = "yes"
+display_bitrate = "no"
+display_remaining_time = "yes"
+user_interface = "classic"
