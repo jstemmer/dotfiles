@@ -18,6 +18,8 @@ bindsym $mod+p exec google-chrome
 
 # toggle music
 bindsym $mod+z exec mpc toggle
+bindsym $mod+x exec mpc next
+bindsym $mod+c exec mpc stop
 
 # start ncmpcpp
 bindsym $mod+n exec i3-sensible-terminal ncmpcpp
