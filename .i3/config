@@ -11,7 +11,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec uxterm
 
 # start a browser
 bindsym $mod+p exec google-chrome
@@ -22,7 +22,7 @@ bindsym $mod+x exec mpc next
 bindsym $mod+c exec mpc stop
 
 # start ncmpcpp
-bindsym $mod+n exec i3-sensible-terminal ncmpcpp
+bindsym $mod+n exec uxterm ncmpcpp
 
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
