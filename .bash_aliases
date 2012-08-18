@@ -39,6 +39,9 @@ alias gdc='git diff --cached'
 alias gk='gitk --all &'
 alias githome='GIT_DIR=$HOME/.dotfiles GIT_WORK_TREE=$HOME bash'
 
+# apt
+alias ac='apt-cache'
+
 # ruby/rails
 alias sp='spec --color --format specdoc'
 alias r='rails'
