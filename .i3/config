@@ -27,6 +27,7 @@ bindsym $mod+n exec uxterm ncmpcpp
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
 for_window [class="(?i)truecrypt"] floating enable
+for_window [class="(?i)wicd-client.py"] floating enable
 
 # kill focused window
 bindsym $mod+Shift+Q kill
