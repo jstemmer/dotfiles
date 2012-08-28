@@ -148,8 +148,8 @@ bar {
         status_command custom-i3status.sh
 }
 
-# enable auto focus when mouse moves over window
-focus_follows_mouse yes
+# disable auto focus when mouse moves over window
+focus_follows_mouse no
 
 # change window border style
 bindsym $mod+t border normal
