@@ -14,7 +14,7 @@
 	changed = green
 	untracked = cyan
 [user]
-	name = Joel Stemmer
+	name = Joël Stemmer
 	email = stemmertech@gmail.com
 [alias]
 	b = bisect
