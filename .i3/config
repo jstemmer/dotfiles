@@ -151,6 +151,9 @@ bar {
 # disable auto focus when mouse moves over window
 focus_follows_mouse no
 
+# don't wrap the focus around in a container
+#disable_focus_wrapping_in_container yes
+
 # change window border style
 bindsym $mod+t border normal
 bindsym $mod+y border 1pixel
