@@ -61,7 +61,11 @@ alias m='ssh mrpwn'
 alias acd='ant compile deploy'
 alias accd='ant clean compile deploy'
 
-alias lock='i3lock --color=000000'
+#alias lock='i3lock --color=000000'
 
 # go tool
 alias gb="clear && go build"
+
+alias ack='ack-grep'
+
+alias libre='libreoffice'
