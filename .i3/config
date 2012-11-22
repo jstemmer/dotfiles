@@ -24,6 +24,9 @@ bindsym $mod+c exec mpc stop
 # start ncmpcpp
 bindsym $mod+n exec uxterm ncmpcpp
 
+# lock screen
+bindsym $mod+m exec i3lock --color=000000
+
 # window/app specific settings
 for_window [class="(?i)google-chrome"] border none
 for_window [class="(?i)truecrypt"] floating enable
