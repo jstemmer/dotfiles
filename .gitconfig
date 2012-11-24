@@ -35,10 +35,11 @@
 	funcname = ^ *\\(\\(class\\|module\\|def\\) .*\\)
 [core]
 	excludesfile = "~/.gitexcludes"
+	editor = vim
 [merge]
-	tool = gvimdiff3
+	tool = vimdiff3
 [mergetool "gvimdiff3"]
-	cmd = gvim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 [push]
 	default = current
 [web]
