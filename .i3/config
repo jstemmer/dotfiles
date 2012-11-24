@@ -164,3 +164,9 @@ focus_follows_mouse no
 bindsym $mod+t border normal
 bindsym $mod+y border 1pixel
 bindsym $mod+u border none
+
+# always wrap inside a container instead of moving to next container
+force_focus_wrapping no
+
+# disable wrapping inside a container
+#disable_focus_wrapping_in_container yes
