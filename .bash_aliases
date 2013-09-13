@@ -33,10 +33,11 @@ alias am='alsamixer'
 alias s='git status'
 alias ga='git add'
 alias gap='git add --patch'
-alias gc='git commit'
+alias gc='git commit -v'
 alias gd='git diff'
 alias gdc='git diff --cached'
 alias gk='gitk --all &'
+alias gg='git gui &'
 alias githome='GIT_DIR=$HOME/.dotfiles GIT_WORK_TREE=$HOME bash'
 
 # apt
