@@ -5,3 +5,5 @@ tags
 .settings/org.eclipse.jdt.core.prefs
 .idea
 *.iml
+gradle.properties
+local.properties
