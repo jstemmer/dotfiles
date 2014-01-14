@@ -7,3 +7,6 @@ tags
 *.iml
 gradle.properties
 local.properties
+*.exe
+out
+c.out
