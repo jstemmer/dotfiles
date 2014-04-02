@@ -27,7 +27,7 @@
 	dc = diff --cached
 	f = !git ls-files | grep -i --color
 	gr = log --graph --pretty=oneline --abbrev-commit
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	m = mergetool
 	s = status
 	ss = status -sb
