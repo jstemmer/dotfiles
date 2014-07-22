@@ -40,7 +40,7 @@
 	editor = vim
 [merge]
 	tool = vimdiff3
-[mergetool "gvimdiff3"]
+[mergetool "vimdiff3"]
 	cmd = vim -f -d -c \"wincmd J\" \"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 [push]
 	default = current
