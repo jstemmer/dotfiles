@@ -65,7 +65,7 @@ alias accd='ant clean compile deploy'
 #alias lock='i3lock --color=000000'
 
 # go tool
-alias gb="clear && go build"
+alias gocov='go test -coverprofile=c.out && go tool cover -html=c.out'
 
 alias ack='ack-grep'
 
