@@ -44,6 +44,7 @@ bindsym $mod+d exec dmenu_run
 
 # start passmenu
 bindsym $mod+i exec passmenu
+bindsym $mod+Shift+i exec passmenu --type
 
 # change focus
 bindsym $mod+h focus left
