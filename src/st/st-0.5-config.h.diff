@@ -1,0 +1,13 @@
+--- config.def.h	2014-09-06 19:49:14.802006253 +0200
++++ config.h	2014-09-06 19:49:21.998006582 +0200
+@@ -5,8 +5,8 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char font[] = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
+-static int borderpx = 2;
++static char font[] = "Liberation Mono:pixelsize=13:antialias=false:autohint=false";
++static int borderpx = 1;
+ static char shell[] = "/bin/sh";
+ 
+ /* Kerning / character bounding-box mutlipliers */

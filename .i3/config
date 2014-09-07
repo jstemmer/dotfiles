@@ -11,8 +11,8 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec uxterm -tn xterm-256color
-bindsym $mod+Shift+p exec st
+bindsym $mod+Return exec st
+bindsym $mod+Shift+Return exec st -e "tmux"
 
 # start a browser
 bindsym $mod+p exec google-chrome
@@ -32,6 +32,7 @@ bindsym $mod+m exec i3lock --color=000000 -e
 bindsym $mod+o exec pavucontrol
 
 # window/app specific settings
+for_window [class="st-256color"] border 1pixel
 for_window [class="(?i)google-chrome"] border none
 
 # kill focused window
