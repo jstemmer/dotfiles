@@ -34,6 +34,7 @@ bindsym $mod+o exec pavucontrol
 # window/app specific settings
 for_window [class="st-256color"] border 1pixel
 for_window [class="(?i)google-chrome"] border none
+for_window [class="(?i)Iceweasel"] border none
 
 # kill focused window
 bindsym $mod+Shift+Q kill
