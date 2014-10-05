@@ -1,0 +1,2 @@
+#!/bin/sh
+.git/hooks/gotags >/dev/null 2>&1 &
