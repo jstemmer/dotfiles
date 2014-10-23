@@ -13,9 +13,6 @@
 	added = yellow
 	changed = green
 	untracked = cyan
-[user]
-	name = Joël Stemmer
-	email = stemmertech@gmail.com
 [alias]
 	b = bisect
 	br = branch
@@ -46,3 +43,5 @@
 	default = current
 [web]
 	browser = google-chrome
+[include]
+	path = .gitconfig.local
