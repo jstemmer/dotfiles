@@ -23,7 +23,7 @@ bindsym $mod+x exec mpc next
 bindsym $mod+c exec mpc stop
 
 # start ncmpcpp
-bindsym $mod+n exec uxterm ncmpcpp
+bindsym $mod+n exec st -e ncmpcpp
 
 # lock screen
 bindsym $mod+m exec i3lock --color=000000 -e
