@@ -43,3 +43,5 @@
 	browser = google-chrome
 [include]
 	path = .gitconfig.local
+[user]
+	name = Joël Stemmer
